@@ -20,9 +20,11 @@
 }
 .rate.rate__active .rate__link:after{
    color:blue;
+   content:'★';
 }
 .rate__link.rate__link__active ~ .rate__link:after{
    color: grey;
+   content:"☆";
 }
 
 .rate:hover .rate__link:after {  
